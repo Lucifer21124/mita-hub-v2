@@ -39,7 +39,7 @@
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "NL",
+      Name = "có vài script chx có đợi cập nhật",
       Default = false,
       Callback = function()
      end
@@ -171,6 +171,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ducsharelink/donkirob
              _G.Webhook = ""
 _G.MetodeTeleport = "Tween" --"Tween" or "Instant"
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/FindFruit.lua')))()
+        
+  end
+  })
+       AddButton(Tab5o, {
+     Name = "THUNDER Z",
+    Callback = function()
+             loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
         
   end
   })
