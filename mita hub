@@ -175,7 +175,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/ref
   end
   })
        AddButton(Tab5o, {
-     Name = "THUNDER Z",
+     Name = "Cokka hub",
     Callback = function()
              loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
         
