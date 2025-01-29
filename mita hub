@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
@@ -161,6 +161,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ducsharelink/donkirob
      Name = "zis hub",
     Callback = function()
              loadstring(game:HttpGet("https://raw.githubusercontent.com/giaotrinhhoc/ZisRb/refs/heads/main/ZisRbV5"))()
+        
+  end
+  })
+       AddButton(Tab1o, {
+     Name = "THUNDER Z",
+    Callback = function()
+             _G.Webhook = ""
+_G.MetodeTeleport = "Tween" --"Tween" or "Instant"
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/FindFruit.lua')))()
         
   end
   })
