@@ -34,6 +34,7 @@
      local Tab2o = MakeTab({Name = "Kaitun"})
      local Tab3o = MakeTab({Name = "fisch"})
      local Tab4o = MakeTab({Name = "farm chest"})
+     local Tab5o = MakeTab({Name = "farm fruit"})
      
 -------TOGGLE 
 
@@ -164,7 +165,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ducsharelink/donkirob
         
   end
   })
-       AddButton(Tab1o, {
+       AddButton(Tab5o, {
      Name = "THUNDER Z",
     Callback = function()
              _G.Webhook = ""
