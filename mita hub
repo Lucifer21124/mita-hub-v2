@@ -3,7 +3,7 @@
        local Window = MakeWindow({
          Hub = {
          Title = "mita hub",
-         Animation = "Loading..."
+         Animation = "Loading..."1
          },
         Key = {
         KeySystem = false,
