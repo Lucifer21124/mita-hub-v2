@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "script"})
      local Tab2o = MakeTab({Name = "Kaitun"})
-     local Tab3o = MakeTab({Name = "dang lam"})
+     local Tab3o = MakeTab({Name = "fisch"})
      
 -------TOGGLE 
 
@@ -131,7 +131,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
             loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
         
   end
-  })            
+  })
+
+       AddButton(Tab3o, {
+     Name = "speed hub",
+    Callback = function()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        
+  end
+  })                        
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
