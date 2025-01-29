@@ -140,7 +140,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
   end
   })
        AddButton(Tab1o, {
-     Name = "speed hub",
+     Name = "xero hub",
     Callback = function()
               getgenv().Team = "Marines"
 getgenv().Hide_Menu = false
